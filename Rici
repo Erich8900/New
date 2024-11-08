@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physiotherapie Praxis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      background-color: #5DADE2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation */
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 10px;
+    }
+
+    nav a:hover {
+      background: #5DADE2;
+      border-radius: 5px;
+    }
+
+    /* Sections */
+    section {
+      padding: 20px;
+      margin: 20px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Kontaktformular */
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+
+    .contact-form button {
+      background-color: #5DADE2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #2980B9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Physiotherapie Praxis</h1>
+    <p>Für Ihre Gesundheit und Wohlbefinden</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">Über uns</a>
+    <a href="#services">Dienstleistungen</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <!-- Über uns Section -->
+  <section id="about">
+    <h2>Über uns</h2>
+    <p>Wir sind eine erfahrene Physiotherapie-Praxis, die sich auf die Verbesserung Ihrer Beweglichkeit und Gesundheit spezialisiert hat. Unser Team von Fachleuten arbeitet mit Leidenschaft und Engagement, um Ihnen eine erstklassige Behandlung zu bieten.</p>
+  </section>
+
+  <!-- Dienstleistungen Section -->
+  <section id="services">
+    <h2>Unsere Dienstleistungen</h2>
+    <ul>
+      <li>Physiotherapie</li>
+      <li>Sporttherapie</li>
+      <li>Massage</li>
+      <li>Rehabilitation nach Verletzungen</li>
+    </ul>
+  </section>
+
+  <!-- Kontakt Section -->
+  <section id="contact">
+    <h2>Kontaktieren Sie uns</h2>
+    <p>Gerne beantworten wir Ihre Fragen oder vereinbaren einen Termin.</p>
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Ihr Name" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail" required>
+        <textarea name="message" rows="4" placeholder="Ihre Nachricht" required></textarea>
+        <button type="submit">Nachricht senden</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Physiotherapie Praxis. Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
